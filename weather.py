@@ -17,9 +17,7 @@ temp_min= str(data['temp_min'])
 
 print(feels_like,humid,cur_temp,temp_max,temp_min) 
 
-'''def format(obj):
-    text = json.dumps(obj,sort_keys=True, indent=4) 
-    print text['feels_like']'''
+
 
 #Print out result 
 
