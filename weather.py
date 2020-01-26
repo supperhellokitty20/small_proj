@@ -1,3 +1,5 @@
+#This is a simple app just grab the ip of the user and search for what the weather like 
+
 import ipapi
 import requests
 import json 
@@ -14,7 +16,6 @@ humid= str(data['humidity'])
 cur_temp =str(data['temp'])
 temp_max=str(data['temp_max'])
 temp_min= str(data['temp_min'])
-
 print(feels_like,humid,cur_temp,temp_max,temp_min) 
 
 
